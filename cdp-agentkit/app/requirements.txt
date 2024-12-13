@@ -1,0 +1,13 @@
+# requirements.txt
+fastapi
+uvicorn
+websockets
+jinja2
+python-multipart
+# Include all requirements from your original agent script
+langchain
+langchain-openai
+langgraph
+cdp
+cdp-langchain
+python-dotenv
