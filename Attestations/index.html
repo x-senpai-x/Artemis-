@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Create Attestation</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f3f4f6;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+      margin: 0;
+    }
+    .form-card {
+      background: white;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+      width: 300px;
+    }
+    .form-card h1 {
+      font-size: 1.5rem;
+      margin-bottom: 1rem;
+      text-align: center;
+    }
+    .form-card input, .form-card button {
+      width: 100%;
+      padding: 10px;
+      margin-bottom: 10px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+    }
+    .form-card button {
+      background: #007bff;
+      color: white;
+      border: none;
+      cursor: pointer;
+    }
+    .form-card button:hover {
+      background: #0056b3;
+    }
+    .status {
+      margin-top: 1rem;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+  <div class="form-card">
+    <h1>Create Attestation</h1>
+    <form id="attestationForm">
+      <input type="text" id="agentId" placeholder="Agent ID" required />
+      <input type="number" id="attestations" placeholder="Number of Attestations" required />
+      <input type="number" id="portfolio" placeholder="Portfolio Holding" required />
+      <input type="text" id="recipient" placeholder="Recipient Address" required />
+      <button type="submit">Submit</button>
+    </form>
+    <div class="status" id="status"></div>
+  </div>
+
+  <script>
+    document.getElementById("attestationForm").addEventListener("submit", async function (event) {
+      event.preventDefault();
+      
+      const agentId = document.getElementById("agentId").value;
+      const attestations = document.getElementById("attestations").value;
+      const portfolio = document.getElementById("portfolio").value;
+      const recipient = document.getElementById("recipient").value;
+      const statusDiv = document.getElementById("status");
+
+      statusDiv.textContent = "Submitting...";
+
+      try {
+        const response = await fetch("http://localhost:5000/create-attestation", {
+          method: "POST",
+          headers: { "Content-Type": "application/json" },
+          body: JSON.stringify({ agentId, attestations: parseInt(attestations), portfolio: parseInt(portfolio), recipient }),
+        });
+
+        const data = await response.json();
+
+        if (response.ok) {
+          statusDiv.textContent = `Success! Attestation UID: ${data.attestationUID}`;
+        } else {
+          statusDiv.textContent = `Error: ${data.error}`;
+        }
+      } catch (error) {
+        statusDiv.textContent = `Error: ${error.message}`;
+      }
+    });
+  </script>
+</body>
+</html>
