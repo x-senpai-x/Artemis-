@@ -34,12 +34,11 @@ Artemis represents a paradigm shift in cross-chain interoperability by introduci
 
 ### Architecture of the orderflow:
 
-<img width="1422" alt="image" src="https://github.com/user-attachments/assets/3a452fa4-cadb-47ea-9c63-cd1b9bff5835">
-
+<img width="1422" alt="image" src="https://github.com/x-senpai-x/Artemis-/blob/main/image.png">
 
 ### Architecture for AI agent proposal
 
-<img width="1440" alt="image" src="https://github.com/user-attachments/assets/a919b16e-6da2-4906-9738-7cc3d1285ac5">
+<img width="1440" alt="image" src="https://github.com/x-senpai-x/Artemis-/blob/main/image%20copy.png">
 
 
 ## Technical Components
