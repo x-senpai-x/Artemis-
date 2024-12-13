@@ -1,6 +1,6 @@
-# Artemis - AI-Powered Intent Settlement Network
+# ArtemisX - AI-Powered Intent Settlement Network
 
-Artemis is a groundbreaking decentralized protocol that revolutionizes cross-chain asset transfers by leveraging AI agents and secure execution environments. This system enables instant, atomic swaps across multiple blockchain networks while ensuring optimal pricing and maximum security.
+ArtemisX is a groundbreaking decentralized protocol that revolutionizes cross-chain asset transfers by leveraging AI agents and secure execution environments. This system enables instant, atomic swaps across multiple blockchain networks while ensuring optimal pricing and maximum security.
 
 ## Table of Contents
 
@@ -16,7 +16,7 @@ Artemis is a groundbreaking decentralized protocol that revolutionizes cross-cha
 
 ## Overview
 
-Artemis represents a paradigm shift in cross-chain interoperability by introducing an intent-based settlement system powered by AI agents. Instead of relying on traditional bridges or atomic swaps, Artemis allows users to express their trading intentions, which are then executed by specialized AI agents operating within secure Trusted Execution Environments (TEEs).
+ArtemisX represents a paradigm shift in cross-chain interoperability by introducing an intent-based settlement system powered by AI agents. Instead of relying on traditional bridges or atomic swaps, ArtemisX allows users to express their trading intentions, which are then executed by specialized AI agents operating within secure Trusted Execution Environments (TEEs).
 
 ## Key Features
 
@@ -89,7 +89,7 @@ Artemis represents a paradigm shift in cross-chain interoperability by introduci
 
 ## Supported Networks
 
-Currently, Artemis supports the following networks:
+Currently, ArtemisX supports the following networks:
 - Ethereum
 - Polygon
 - Base
@@ -105,9 +105,9 @@ Currently, Artemis supports the following networks:
 
 ## Getting Started
 
-To start using Artemis:
+To start using ArtemisX:
 
-1. Visit the Artemis web interface
+1. Visit the ArtemisX web interface
 2. Connect your Web3 wallet
 3. Select your input token and desired output token
 4. Submit your trading intent
@@ -119,7 +119,7 @@ To set up the development environment:
 
 ```bash
 # Clone the repository
-git clone https://github.com/[username]/Artemis
+git clone https://github.com/x-senpai-x/ArtemisX
 
 # Install dependencies
 npm install
