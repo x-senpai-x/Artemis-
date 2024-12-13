@@ -1,6 +1,6 @@
-# Diana - AI-Powered Intent Settlement Network
+# Artemis - AI-Powered Intent Settlement Network
 
-Diana is a groundbreaking decentralized protocol that revolutionizes cross-chain asset transfers by leveraging AI agents and secure execution environments. This system enables instant, atomic swaps across multiple blockchain networks while ensuring optimal pricing and maximum security.
+Artemis is a groundbreaking decentralized protocol that revolutionizes cross-chain asset transfers by leveraging AI agents and secure execution environments. This system enables instant, atomic swaps across multiple blockchain networks while ensuring optimal pricing and maximum security.
 
 ## Table of Contents
 
@@ -16,7 +16,7 @@ Diana is a groundbreaking decentralized protocol that revolutionizes cross-chain
 
 ## Overview
 
-Diana represents a paradigm shift in cross-chain interoperability by introducing an intent-based settlement system powered by AI agents. Instead of relying on traditional bridges or atomic swaps, Diana allows users to express their trading intentions, which are then executed by specialized AI agents operating within secure Trusted Execution Environments (TEEs).
+Artemis represents a paradigm shift in cross-chain interoperability by introducing an intent-based settlement system powered by AI agents. Instead of relying on traditional bridges or atomic swaps, Artemis allows users to express their trading intentions, which are then executed by specialized AI agents operating within secure Trusted Execution Environments (TEEs).
 
 ## Key Features
 
@@ -90,7 +90,7 @@ Diana represents a paradigm shift in cross-chain interoperability by introducing
 
 ## Supported Networks
 
-Currently, Diana supports the following networks:
+Currently, Artemis supports the following networks:
 - Ethereum
 - Polygon
 - Base
@@ -106,9 +106,9 @@ Currently, Diana supports the following networks:
 
 ## Getting Started
 
-To start using Diana:
+To start using Artemis:
 
-1. Visit the Diana web interface
+1. Visit the Artemis web interface
 2. Connect your Web3 wallet
 3. Select your input token and desired output token
 4. Submit your trading intent
@@ -120,7 +120,7 @@ To set up the development environment:
 
 ```bash
 # Clone the repository
-git clone https://github.com/[username]/Diana
+git clone https://github.com/[username]/Artemis
 
 # Install dependencies
 npm install
