@@ -557,7 +557,7 @@ function App() {
               {/* Right side - Get Started Steps */}
               <div className="lg:pl-12">
                 <h2 className="text-4xl font-bold mb-12 text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 to-blue-500">
-                  How Artemis Works
+                  How ArtemisX Works
                 </h2>
                 
                 <div className="space-y-6">
@@ -583,7 +583,7 @@ function App() {
 
             <div className="max-w-4xl mx-auto relative z-10">
               <h2 className="text-4xl md:text-5xl font-bold leading-tight mb-8 text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 to-blue-500 animate-pulse-slow">
-                Learn more about the magic behind Artemis' AI Agents and its Cross-Chain settlement features
+                Learn more about the magic behind ArtemisX' (previously Artemis) AI Agents and its Cross-Chain settlement features
                 <div className="absolute -inset-2 bg-cyan-400/10 blur-3xl -z-10"></div>
               </h2>
               
